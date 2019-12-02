@@ -1,4 +1,5 @@
 class Dog 
+  setter_accessor :dog_name 
   
   @@all = [] 
    
