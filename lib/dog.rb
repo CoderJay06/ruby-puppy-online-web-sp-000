@@ -16,7 +16,7 @@ class Dog
   
   def self.print_all 
     @@all.inspect
-    binding.pry 
+    
   end
    
 end 
