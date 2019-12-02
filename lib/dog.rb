@@ -14,7 +14,7 @@ class Dog
   end 
   
   def self.print_all 
-    self.all.map(&:inspect).join("\n")
+    print self.all.map(&:inspect).join("\n")
   end
    
 end 
