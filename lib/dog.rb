@@ -21,7 +21,7 @@ class Dog
   end
   
   def save 
-    @@all << self 
+    @@all << :dog_name
   end 
    
 end 
