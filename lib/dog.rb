@@ -29,7 +29,8 @@ class Dog
   end 
   
   def name 
-    &self 
+    current_dog_name = self.map(&:dog_name)
+    puts current_dog_name.join("")
   end
    
 end 
