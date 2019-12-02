@@ -14,7 +14,7 @@ class Dog
   end 
   
   def self.print_all 
-    self.all.map()
+    self.all.map(&)
   end
    
 end 
