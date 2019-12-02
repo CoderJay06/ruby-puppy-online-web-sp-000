@@ -29,7 +29,7 @@ class Dog
   end 
   
   def name
-    self
+    self.
   end
    
 end 
