@@ -17,7 +17,7 @@ class Dog
   def self.print_all 
     print_names = []
     print_names = self.all.map(&:dog_name)
-    print_names.join("\n")
+    puts print_names.join("\n")
   end
    
 end 
