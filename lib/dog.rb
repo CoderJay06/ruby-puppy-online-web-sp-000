@@ -19,5 +19,8 @@ class Dog
     print_names = self.all.map(&:dog_name)
     puts print_names.join("\n")
   end
+  
+  def save 
+  end 
    
 end 
