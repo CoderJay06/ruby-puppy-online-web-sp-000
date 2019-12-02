@@ -14,7 +14,7 @@ class Dog
   end 
   
   def self.print_all 
-    @@all.each {|name| print name.to_s}
+    self.all.map()
   end
    
 end 
