@@ -29,7 +29,7 @@ class Dog
   end 
   
   def name
-    self.strip(self.Object_id)
+    self.strip(self.object_id)
   end
    
 end 
