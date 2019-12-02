@@ -13,7 +13,7 @@ class Dog
   end 
   
   def self.print_all 
-    self.all.map(&dog_name)
+    self.all.map(&:dog_name)
   end
    
 end 
